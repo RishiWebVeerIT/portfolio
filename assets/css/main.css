@@ -1273,3 +1273,79 @@ section,
 .starter-section {
   /* Add your styles here */
 }
+
+/* ...........................................................CG Code.................................................................... */
+
+#portfolio-links .card {
+  border: none;
+  border-radius: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#portfolio-links .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+#portfolio-links .card-title {
+  font-size: 1.25rem;
+  color: #1e1e1e;
+  font-weight: 600;
+}
+
+#portfolio-links ul li {
+  padding: 8px 0;
+  font-size: 0.95rem;
+}
+
+#portfolio-links ul li i {
+  color: #5f5f5f;
+  margin-right: 6px;
+}
+
+#portfolio-links a {
+  color: #0077b6;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+#portfolio-links a:hover {
+  color: #023e8a;
+  text-decoration: none;
+}
+
+#portfolio-links .badge {
+  margin-left: 6px;
+  font-size: 0.75rem;
+  vertical-align: middle;
+}
+
+#portfolio-links .btn-outline-primary:hover {
+  background-color: #0077b6;
+  color: #ffffff !important;
+}
+
+#portfolio-links .btn-outline-success:hover {
+  background-color: #198754;
+  color: #ffffff !important;
+}
+
+#portfolio-links .btn-outline-dark:hover {
+  background-color: #343a40;
+  color: #ffffff !important;
+}
+
+
+#portfolio-links .card-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #343a40;
+  margin-bottom: 0.75rem;
+  border-left: 4px solid #0077b6;
+  padding-left: 10px;
+  text-transform: capitalize;
+}
+
+[data-aos="fade-up"] .card-title {
+  transition: all 0.6s ease-in-out;
+}
