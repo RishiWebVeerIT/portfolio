@@ -22,14 +22,14 @@
   --background-color: #ffffff; /* Background color for the entire website, including individual sections */
   --default-color: #272829; /* Default color used for the majority of the text content across the entire website */
   --heading-color: #050d18; /* Color for headings, subheadings and title throughout the website */
-  --accent-color: rgba(90, 0, 180, 0.6); /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
+  --accent-color: #149ddd; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
   --surface-color: #ffffff; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
   --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
 }
 
 /* Nav Menu Colors - The following color variables are used specifically for the navigation menu. They are separate from the global colors to allow for more customization options */
 :root {
-  --nav-color: #f2f3f7;  /* The default color of the main navmenu links */
+  --nav-color: #a8a9b4;  /* The default color of the main navmenu links */
   --nav-hover-color: #ffffff; /* Applied to main navmenu links when they are hovered over or active */
   --nav-mobile-background-color: #040b14; /* Used as the background color for mobile navigation menu */
   --nav-dropdown-background-color: #040b14; /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
@@ -45,7 +45,7 @@
 }
 
 .dark-background {
-  --background-color: rgba(30, 0, 150, 0.6);
+  --background-color: #040b14;
   --default-color: #ffffff;
   --heading-color: #ffffff;
   --surface-color: #151f2b;
@@ -144,12 +144,7 @@ h6 {
 --------------------------------------------------------------*/
 .header {
   color: var(--default-color);
- background: linear-gradient(135deg,
-  rgba(30, 0, 150, 0.6) 0%,
-  rgba(90, 0, 180, 0.6) 35%,
-  rgba(180, 0, 130, 0.6) 65%,
-  rgba(180, 80, 50, 0.6) 100%);
-
+  background-color: var(--background-color);
   position: fixed;
   top: 0;
   left: 0;
@@ -1309,7 +1304,7 @@ section,
 }
 
 #portfolio-links a {
-  color: rgba(30, 0, 150, 0.6);
+  color: #0077b6;
   text-decoration: none;
   transition: color 0.3s;
 }
@@ -1326,7 +1321,7 @@ section,
 }
 
 #portfolio-links .btn-outline-primary:hover {
-  background-color: rgba(30, 0, 150, 0.6);
+  background-color: #0077b6;
   color: #ffffff !important;
 }
 
@@ -1346,7 +1341,7 @@ section,
   font-weight: 600;
   color: #343a40;
   margin-bottom: 0.75rem;
-  border-left: 4px solid rgba(30, 0, 150, 0.6);
+  border-left: 4px solid #0077b6;
   padding-left: 10px;
   text-transform: capitalize;
 }
