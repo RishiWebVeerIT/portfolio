@@ -1349,3 +1349,73 @@ section,
 [data-aos="fade-up"] .card-title {
   transition: all 0.6s ease-in-out;
 }
+
+/* Countdown */
+
+   #countdown {
+      max-width: 400px;
+      margin: 30px auto;
+      text-align: center;
+      padding: 10px;
+      background-color: #fff;
+      border: 1px solid #dee2e6;
+      border-radius: 0.5rem;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    }
+
+    .countdown-title {
+      font-size: 1.2rem;
+      font-weight: 600;
+      margin-bottom: 0.3rem;
+      color: #0f5132;
+    }
+
+    .countdown-description {
+      font-size: 0.8rem;
+      color: #6c757d;
+      margin-bottom: 1rem;
+    }
+
+    .countdown-blocks {
+      display: flex;
+      justify-content: center;
+      gap: 6px;
+    }
+
+    .time-block {
+      background-color: #e9ecef;
+      padding: 8px 10px;
+      border-radius: 0.5rem;
+      min-width: 50px;
+    }
+
+    .time-value {
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: #212529;
+      line-height: 1.2;
+    }
+
+    .time-label {
+      font-size: 0.65rem;
+      color: #495057;
+      text-transform: uppercase;
+      margin: 0;
+    }
+
+    .expired-message {
+      font-size: 0.9rem;
+      color: #198754;
+      font-weight: 600;
+      margin-top: 1rem;
+    }
+
+    .time-value.pulse {
+      animation: pulse 1s infinite;
+    }
+
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.07); }
+      100% { transform: scale(1); }
+    }
